@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
 int hjältehp = 100 ;
 int skurkhp = 100 ;
@@ -29,14 +29,6 @@ Console.WriteLine($"{hjältenamn} gör {skada2} skada på {skurknamn}");
 
 Console.WriteLine ("tryck nånstans för att fortsätta.");
 Console.ReadKey();
-
-
-}
-
-
-{
-
-
 
 
 }
