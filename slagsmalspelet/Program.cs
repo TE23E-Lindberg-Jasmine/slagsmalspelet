@@ -16,13 +16,13 @@ Console.Clear();
 Console.WriteLine("\n Runda 1");
 Console.WriteLine($"{hjältenamn}: {hjältehp} {skurknamn}: {skurkhp}\n ");
 
-int skada1 = generator.Next (10);
+int skada1 = generator.Next (20);
 skurkhp -= skada1;
 skurkhp = Math.Max(0,skurkhp);
 Console.WriteLine($"{skurknamn}gör {skada1} skada på {hjältenamn}");
 
 
-int skada2 = generator.Next (10); 
+int skada2 = generator.Next (20); 
 hjältehp -= skada2;
 hjältehp= Math.Max(0,hjältehp);
 Console.WriteLine($"{hjältenamn} gör {skada2} skada på {skurknamn}");
@@ -36,22 +36,7 @@ Console.ReadKey();
 
 {
 
-Console.WriteLine("\nRunda 2");
-Console.WriteLine($"{hjältenamn}: {hjältehp} {skurknamn}: {skurkhp}\n ");
 
-int skada3 = generator.Next (50);
-skurkhp -= skada3;
-skurkhp = Math.Max(0,skurkhp);
-Console.WriteLine($"{skurknamn}gör {skada3} skada på {hjältenamn}");
-
-
-int skada4 = generator.Next (50); 
-hjältehp -= skada4;
-hjältehp= Math.Max(0,hjältehp);
-Console.WriteLine($"{hjältenamn} gör {skada4} skada på {skurknamn}");
-
-Console.WriteLine ("tryck nånstans för att fortsätta.");
-Console.ReadKey();
 
 
 }
